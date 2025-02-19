@@ -18,6 +18,7 @@ import { json } from '@remix-run/cloudflare';
 import { SESClient, SendEmailCommand } from '@aws-sdk/client-ses';
 import { Link } from '~/components/link';
 import styles from './skills.module.css';
+import myPDF from 'app/assets/Sriharsha.pdf';
 
 export const meta = () => {
   return baseMeta({
@@ -399,11 +400,7 @@ export const Skills = () => {
                 style={{ margin: '10px 0' }}
               >
                 📄 <strong>Download Resume:</strong>{' '}
-                <Link
-                  href="/app/assets/Sriharsha.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <Link href={myPDF} target="_blank" rel="noopener noreferrer">
                   Download PDF
                 </Link>
               </Text>
