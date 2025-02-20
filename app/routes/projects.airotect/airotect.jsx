@@ -21,9 +21,6 @@ import sliceSidebarAnnotations from '~/assets/software-testing-chart.jpg';
 import sliceSidebarLayersLarge from '~/assets/software-testing-chart.jpg';
 import sliceSidebarLayersPlaceholder from '~/assets/software-testing-chart.jpg';
 import sliceSidebarLayers from '~/assets/software-testing-chart.jpg';
-import sliceSlidesLarge from '~/assets/PMP-API.png';
-import sliceSlidesPlaceholder from '~/assets/slice-slides-placeholder.jpg';
-import sliceSlides from '~/assets/PMP-API.png';
 import { Footer } from '~/components/footer';
 import { Image } from '~/components/image';
 import {
