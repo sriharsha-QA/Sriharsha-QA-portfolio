@@ -25,10 +25,6 @@ import imageSprLessonBuilderLight from '~/assets/medical-booking-app-theme_23-21
 import videoSprMotionLarge from '~/assets/spr-motion-large.mp4';
 import videoSprMotionPlaceholder from '~/assets/spr-motion-placeholder.jpg';
 import videoSprMotion from '~/assets/functionality.mp4';
-import imageSprSchema1DarkLarge from '~/assets/man-woman-coworking-laptop_23-2147669376.jpg';
-import imageSprSchema1DarkPlaceholder from '~/assets/spr-schema-1-dark-placeholder.png';
-import imageSprSchema1Dark from '~/assets/spr-schema-1-dark.png';
-import imageSprSchema1LightLarge from '~/assets/man-woman-coworking-laptop_23-2147669376.jpg';
 import imageSprSchema1LightPlaceholder from '~/assets/spr-schema-1-light-placeholder.png';
 import imageSprSchema1Light from '~/assets/spr-schema-1-light.png';
 import imageSprSchema2DarkLarge from '~/assets/people-correcting-charts_23-2147669777.jpg';
