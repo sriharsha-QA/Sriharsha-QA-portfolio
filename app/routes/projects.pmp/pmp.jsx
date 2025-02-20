@@ -8,8 +8,8 @@ import sliceBackgroundBarLarge from '~/assets/Plant-Engineering-04-1024x537.jpg'
 import sliceBackgroundBarPlaceholder from '~/assets/Plant-Engineering-04-1024x537.jpg';
 import sliceBackgroundBar from '~/assets/Plant-Engineering-04-1024x537.jpg';
 import sliceBackgroundLarge from '~/assets/3d-office-objects-background_1284-24617.jpg';
-import sliceBackgroundPlaceholder from '~/assets/slice-background-placeholder.jpg';
-import sliceBackground from '~/assets/slice-background.jpg';
+import sliceBackgroundPlaceholder from '~/assets/3d-office-objects-background_1284-24617.jpg';
+import sliceBackground from '~/assets/3d-office-objects-background_1284-24617.jpg';
 import sliceIrlPlaceholder from '~/assets/bug.jpg';
 import sliceIrl from '~/assets/slice-irl.jpg';
 import sliceSidebarAnnotationsLarge from '~/assets/Quality-Roles-1-1.jpg';
