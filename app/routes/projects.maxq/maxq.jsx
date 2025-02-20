@@ -1,6 +1,6 @@
-import sliceAnnotationLarge from '~/assets/responsibilities.jpg';
-import sliceAnnotationPlaceholder from '~/assets/slice-annotation-placeholder.png';
-import sliceAnnotation from '~/assets/slice-annotation.png';
+import sliceAnnotationLarge from '~/assets/software-quality-challenges-slide1_2.png';
+import sliceAnnotationPlaceholder from '~/assets/software-quality-challenges-slide1_2.png';
+import sliceAnnotation from '~/assets/software-quality-challenges-slide1_2.png';
 import sliceAppLarge from '~/assets/packshopmain.jpg';
 import sliceAppPlaceholder from '~/assets/slice-app-placeholder.jpg';
 import sliceApp from '~/assets/slice-app.jpg';
@@ -13,16 +13,16 @@ import sliceBackground from '~/assets/slice-background.jpg';
 import sliceIrlPlaceholder from '~/assets/slice-irl-placeholder.jpg';
 import sliceIrl from '~/assets/ci-cd.jpg';
 import Documentimage from '~/assets/documents.jpg';
-import tools from '~/assets/toolsused.jpg';
-import sliceSidebarAnnotationsLarge from '~/assets/software-testing-chart.jpg';
-import sliceSidebarAnnotationsPlaceholder from '~/assets/software-testing-chart.jpg';
-import sliceSidebarAnnotations from '~/assets/software-testing-chart.jpg';
-import sliceSidebarLayersLarge from '~/assets/software-testing-chart.jpg';
-import sliceSidebarLayersPlaceholder from '~/assets/software-testing-chart.jpg';
-import sliceSidebarLayers from '~/assets/software-testing-chart.jpg';
+import tools from '~/assets/quality-assurance-test-tools-best-attributes.jpg';
+import sliceSidebarAnnotationsLarge from '~/assets/Software-QA.jpg';
+import sliceSidebarAnnotationsPlaceholder from '~/assets/Software-QA.jpg';
+import sliceSidebarAnnotations from '~/assets/Software-QA.jpg';
+import sliceSidebarLayersLarge from '~/assets/qa-image.png';
+import sliceSidebarLayersPlaceholder from '~/assets/qa-image.png';
+import sliceSidebarLayers from '~/assets/qa-image.png';
 import sliceSlidesLarge from '~/assets/agile.jpg';
-import sliceSlidesPlaceholder from '~/assets/slice-slides-placeholder.jpg';
-import sliceSlides from '~/assets/slice-slides.jpg';
+import sliceSlidesPlaceholder from '~/assets/agile.jpg';
+import sliceSlides from '~/assets/agile.jpg';
 import { Footer } from '~/components/footer';
 import { Image } from '~/components/image';
 import {
@@ -228,7 +228,7 @@ export const Slice = () => {
         <ProjectSection padding="top">
           <ProjectSectionContent className={styles.grid}>
             <div className={styles.gridImage}>
-              <div className={styles.gridBackground}>
+              {/* <div className={styles.gridBackground}>
                 <Image
                   srcSet={`${sliceBackgroundBar} 440w, ${sliceBackgroundBarLarge} 880w`}
                   width={440}
@@ -238,7 +238,7 @@ export const Slice = () => {
                   role="presentation"
                   sizes={`(max-width: ${media.mobile}px) 312px, (max-width: ${media.tablet}px) 408px, 514px`}
                 />
-              </div>
+              </div> */}
               <div className={styles.gridForeground}>
                 <Image
                   srcSet={`${sliceAnnotation} 440w, ${sliceAnnotationLarge} 880w`}

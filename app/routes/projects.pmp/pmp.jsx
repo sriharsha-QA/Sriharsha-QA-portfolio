@@ -1,26 +1,26 @@
-import sliceAnnotationLarge from '~/assets/issues-tracking.jpg';
-import sliceAnnotationPlaceholder from '~/assets/slice-annotation-placeholder.png';
-import sliceAnnotation from '~/assets/issues-tracking.jpg';
+import sliceAnnotationLarge from '~/assets/Plant-Engineering-04-1024x537.jpg';
+import sliceAnnotationPlaceholder from '~/assets/Plant-Engineering-04-1024x537.jpg';
+import sliceAnnotation from '~/assets/Plant-Engineering-04-1024x537.jpg';
 import sliceAppLarge from '~/assets/whiteboard-with-planning-method_23-2148513838.jpg';
 import sliceAppPlaceholder from '~/assets/slice-app-placeholder.jpg';
 import sliceApp from '~/assets/PMP-mainpage1.jpg';
-import sliceBackgroundBarLarge from '~/assets/error-with-people-holding-numbers-concept-illustration_jpg.jpg';
-import sliceBackgroundBarPlaceholder from '~/assets/slice-background-bar-placeholder.jpg';
-import sliceBackgroundBar from '~/assets/error-with-people-holding-numbers-concept-illustration_jpg.jpg';
+import sliceBackgroundBarLarge from '~/assets/Plant-Engineering-04-1024x537.jpg';
+import sliceBackgroundBarPlaceholder from '~/assets/Plant-Engineering-04-1024x537.jpg';
+import sliceBackgroundBar from '~/assets/Plant-Engineering-04-1024x537.jpg';
 import sliceBackgroundLarge from '~/assets/3d-office-objects-background_1284-24617.jpg';
 import sliceBackgroundPlaceholder from '~/assets/slice-background-placeholder.jpg';
 import sliceBackground from '~/assets/slice-background.jpg';
 import sliceIrlPlaceholder from '~/assets/bug.jpg';
 import sliceIrl from '~/assets/slice-irl.jpg';
-import sliceSidebarAnnotationsLarge from '~/assets/software-testing-chart.jpg';
+import sliceSidebarAnnotationsLarge from '~/assets/Quality-Roles-1-1.jpg';
 import cicdpipeline from '~/assets/cicdpipeline.jpg';
 import documents from '~/assets/document-knowledge.jpg';
-import tools from '~/assets/toolspmp.jpg';
-import sliceSidebarAnnotationsPlaceholder from '~/assets/software-testing-chart.jpg';
-import sliceSidebarAnnotations from '~/assets/software-testing-chart.jpg';
-import sliceSidebarLayersLarge from '~/assets/software-testing-chart.jpg';
-import sliceSidebarLayersPlaceholder from '~/assets/software-testing-chart.jpg';
-import sliceSidebarLayers from '~/assets/software-testing-chart.jpg';
+import tools from '~/assets/Testing-with-tools.png';
+import sliceSidebarAnnotationsPlaceholder from '~/assets/Quality-Roles-1-1.jpg';
+import sliceSidebarAnnotations from '~/assets/Quality-Roles-1-1.jpg';
+import sliceSidebarLayersLarge from '~/assets/qa-image.png';
+import sliceSidebarLayersPlaceholder from '~/assets/qa-image.png';
+import sliceSidebarLayers from '~/assets/qa-image.png';
 import sliceSlidesLarge from '~/assets/Issues-tracling.jpg';
 import sliceSlidesPlaceholder from '~/assets/Issues-tracling.jpg';
 import sliceSlides from '~/assets/Issues-tracling.jpg';
@@ -241,26 +241,21 @@ export const Slice = () => {
                   width={440}
                   height={790}
                   placeholder={sliceBackgroundBarPlaceholder}
-                  alt=""
-                  role="presentation"
-                  sizes={`(max-width: ${media.mobile}px) 312px, (max-width: ${media.tablet}px) 408px, 514px`}
+                  alt="Decorative background"
+                  sizes="(max-width: 600px) 312px, (max-width: 900px) 408px, 514px"
+                  style={{ width: '100%', height: 'auto' }}
                 />
               </div>
-              <div className={styles.gridForeground}>
+              {/* <div className={styles.gridForeground}>
                 <Image
                   srcSet={`${sliceAnnotation} 440w, ${sliceAnnotationLarge} 880w`}
                   width={440}
                   height={340}
                   placeholder={sliceAnnotationPlaceholder}
-                  style={{
-                    marginLeft: '-140px',
-                    marginTop: '67px',
-                    width: '513px',
-                  }}
                   alt="An annotation preview popover with statistics for shape perimeter and area."
                   sizes={`(max-width: 200px) 584px, (max-width: 200px) 747px, 556px`}
                 />
-              </div>
+              </div> */}
             </div>
             <div className={styles.gridText}>
               <ProjectSectionHeading>🎯 Challenges & Solutions</ProjectSectionHeading>

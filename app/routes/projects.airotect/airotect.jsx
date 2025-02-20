@@ -13,8 +13,8 @@ import sliceBackground from '~/assets/slice-background.jpg';
 import videoSprMotionLarge from '~/assets/spr-motion-large.mp4';
 import videoSprMotionPlaceholder from '~/assets/spr-motion-placeholder.jpg';
 import videoSprMotion from '~/assets/testplanning.mp4';
-import sliceIrlPlaceholder from '~/assets/automation7.jpg';
-import sliceIrl from '~/assets/automation7.jpg';
+import sliceIrlPlaceholder from '~/assets/qa-tools.jpg';
+import sliceIrl from '~/assets/qa-tools.jpg';
 import sliceSidebarAnnotationsLarge from '~/assets/software-testing-chart.jpg';
 import sliceSidebarAnnotationsPlaceholder from '~/assets/software-testing-chart.jpg';
 import sliceSidebarAnnotations from '~/assets/software-testing-chart.jpg';
@@ -237,7 +237,7 @@ export const Slice = () => {
                   sizes={`(max-width: ${media.mobile}px) 312px, (max-width: ${media.tablet}px) 408px, 514px`}
                 />
               </div>
-              <div className={styles.gridForeground}>
+              {/* <div className={styles.gridForeground}>
                 <Image
                   srcSet={`${sliceAnnotation} 440w, ${sliceAnnotationLarge} 880w`}
                   width={440}
@@ -246,7 +246,7 @@ export const Slice = () => {
                   alt="An annotation preview popover with statistics for shape perimeter and area."
                   sizes={`(max-width: ${media.mobile}px) 584px, (max-width: ${media.tablet}px) 747px, 556px`}
                 />
-              </div>
+              </div> */}
             </div>
             <div className={styles.gridText}>
               <ProjectSectionHeading>Key Achievements & Impact</ProjectSectionHeading>
