@@ -1,9 +1,9 @@
 import sliceAnnotationLarge from '~/assets/key-achievements.jpg';
 import sliceAnnotationPlaceholder from '~/assets/slice-annotation-placeholder.png';
 import sliceAnnotation from '~/assets/slice-annotation.png';
-import sliceAppLarge from '~/assets/airotect.jpg';
-import sliceAppPlaceholder from '~/assets/slice-app-placeholder.jpg';
-import sliceApp from '~/assets/slice-app.jpg';
+import sliceAppLarge from '~/assets/gettyimages-80510103-612x612.jpg';
+import sliceAppPlaceholder from '~/assets/gettyimages-80510103-612x612.jpg';
+import sliceApp from '~/assets/gettyimages-80510103-612x612.jpg';
 import sliceBackgroundBarLarge from '~/assets/impact2.jpg';
 import sliceBackgroundBarPlaceholder from '~/assets/slice-background-bar-placeholder.jpg';
 import sliceBackgroundBar from '~/assets/pmp4.jpg';
@@ -40,14 +40,21 @@ import { media } from '~/utils/style';
 import { baseMeta } from '~/utils/meta';
 import styles from './airotect.module.css';
 
-const title = 'Airotect Mobile App';
+const title = 'Airotect Web and Mobile App';
 const description =
-  'Airotect is a mobile application designed to enable seamless offline and online data management for field users, with features such as SQLite integration, QR code scanning, error tracking, and bulk data processing.';
+  'Airotect is a comprehensive web and mobile application designed to facilitate seamless data management for field and admin users. The platform supports both online and offline functionalities, allowing users to collect, manage, and sync data effortlessly. Key features include pure multi-tenancy, robust user and role management, QR code scanning, advanced file processing, real-time validations, and detailed reporting modules. The mobile app is tailored for public and field users with offline capabilities and local data storage, while the web application focuses on administrative tasks, data visualization, and efficient resource management.';
 const roles = [
-  'Mobile App Development',
-  'Offline Data Management',
-  'User Authentication',
-  'QR Code Integration',
+  'Web and Mobile App Development',
+  'Offline and Online Data Management',
+  'User and Role Management',
+  'Multi-Tenancy Implementation',
+  'QR Code Scanning and Integration',
+  'Bulk Data Upload and Processing',
+  'Advanced Reporting and Analytics',
+  'Authentication and Authorization (JWT-based)',
+  'Sampler, Tube, and Badge Management',
+  'Location and Base Management',
+  'Error Tracking and Metadata Logging',
 ];
 
 export const meta = () => {
