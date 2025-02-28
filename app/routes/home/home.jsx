@@ -12,6 +12,8 @@ import sprTextureLarge from '~/assets/clynic.png';
 
 import airotect from '~/assets/airo1.png';
 import airotectLarge from '~/assets/airo2.png';
+import qa from '~/assets/qa1.png';
+import qaLarge from '~/assets/qa2.png';
 
 import sprTexturePlaceholder from '~/assets/spr-lesson-builder-dark-placeholder.jpg';
 import sprTexture from '~/assets/clynic.png';
@@ -60,6 +62,7 @@ export const Home = () => {
   const projectThree = useRef();
   const projectFour = useRef();
   const projectFive = useRef();
+  const projectSix = useRef();
   const details = useRef();
 
   useEffect(() => {
@@ -70,6 +73,7 @@ export const Home = () => {
       projectThree,
       projectFour,
       projectFive,
+      projectSix,
       details,
     ];
 
@@ -219,6 +223,31 @@ export const Home = () => {
           textures: [
             {
               srcSet: `${pmp} 800w, ${pmp} 1920w`,
+              placeholder: sliceTexturePlaceholder,
+            },
+          ],
+        }}
+      />
+      <ProjectSummary
+        id="project-6"
+        alternate
+        sectionRef={projectSix}
+        visible={visibleSections.includes(projectSix.current)}
+        index={6}
+        title="QA Tracking App"
+        description="A React-based app for managing QA processes, tracking issues, and analyzing API performance. Features AI-powered automation, real-time analytics, and seamless integrations. Built with React, Tailwind CSS, and OpenAI API, and deployed on Vercel and Cloudflare."
+        buttonText="View Project"
+        buttonLink="/projects/qa-tracker"
+        model={{
+          type: 'phone',
+          alt: 'App login screen',
+          textures: [
+            {
+              srcSet: `${qaLarge} 400w, ${qaLarge} 800w`,
+              placeholder: sliceTexturePlaceholder,
+            },
+            {
+              srcSet: `${qa} 400w, ${qa} 800w`,
               placeholder: sliceTexturePlaceholder,
             },
           ],

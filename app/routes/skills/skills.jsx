@@ -83,7 +83,7 @@ export const Skills = () => {
                 'https://static-00.iconduck.com/assets.00/swagger-icon-2048x2048-563qbzey.png',
                 'https://static-00.iconduck.com/assets.00/database-mongo-db-icon-980x1024-1q3t2p6x.png',
                 'https://static-00.iconduck.com/assets.00/jira-icon-144x144-9z8vfcwv.png',
-                'https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/aws-icon.png',
+                'https://download.logo.wine/logo/Amazon_Web_Services/Amazon_Web_Services-Logo.wine.png',
                 'https://cdn-icons-png.flaticon.com/512/919/919825.png',
                 'https://cdn-icons-png.flaticon.com/512/5968/5968381.png',
                 'https://cdn-icons-png.flaticon.com/512/919/919853.png',
@@ -127,15 +127,18 @@ export const Skills = () => {
               style={getDelay(tokens.base.durationXS, initDelay, 0.4)}
             />
             <Text className={styles.description} data-status={status} size="l" as="p">
-              As a <strong>Full Stack QA Enginee</strong> with <strong>3+ years</strong>{' '}
-              of experience across
-              <strong> healthcare, e-commerce, and SaaS</strong> domains, I design and
-              execute
-              <strong> high-impact testing strategies</strong> focusing on{' '}
-              <strong>Automation Testing</strong>,<strong> API Validation</strong>, and{' '}
+              As a <strong>Full Stack QA Engineer</strong> with <strong>3+ years</strong>{' '}
+              of experience across <strong>healthcare, e-commerce, and SaaS</strong>{' '}
+              domains, I design and execute{' '}
+              <strong>high-impact testing strategies</strong>, focusing on{' '}
+              <strong>Automation Testing</strong>, <strong>API Validation</strong>, and{' '}
               <strong>CI/CD integration</strong>. By collaborating with cross-functional
-              teams, I deliver <strong>robust, scalable, and high-performing</strong>
+              teams, I deliver <strong>robust, scalable, and high-performing</strong>{' '}
               software solutions, ensuring meticulous test coverage and quality standards.
+              Additionally, I have hands-on experience with <strong>React</strong>, which
+              I used to develop this portfolio and a self-initiated application called{' '}
+              <strong>QA Tracker</strong> to improve QA team efficiency and product
+              quality.
             </Text>
             <br />
             <br></br>
@@ -171,7 +174,9 @@ export const Skills = () => {
                 style={{ margin: '10px 0' }}
               >
                 ✅ <strong>Implemented full-stack automation</strong>, cutting regression
-                testing time by <strong>80%</strong> and enabling faster release cycles.
+                testing time by <strong>80% (from 10 hours to 2 hours per cycle)</strong>{' '}
+                and enabling faster release cycles.{' '}
+                {/* IMPROVEMENT: Added specific time metrics */}
               </Text>
               <Text
                 as="li"
@@ -226,10 +231,44 @@ export const Skills = () => {
               <strong>product success</strong>.
             </Text>
             <br />
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
+            <br />
+            <br />
+            <br />
+            <br />
+            {/* QA TRACKER: SELF-DEVELOPED APPLICATION */}
+            <Heading
+              className={styles.title}
+              data-status={status}
+              level={3}
+              as="h2"
+              style={getDelay(tokens.base.durationXS, initDelay, 0.7)}
+            >
+              <DecoderText
+                text="QA Tracker: Self-Developed Application"
+                start={status !== 'exited'}
+                delay={500}
+              />
+            </Heading>
+            <Divider
+              className={styles.divider}
+              data-status={status}
+              style={getDelay(tokens.base.durationXS, initDelay, 0.8)}
+            />
+            <Text className={styles.description} data-status={status} size="l" as="p">
+              I developed a <strong>React-based application</strong> called{' '}
+              <strong>QA Tracker</strong> to streamline QA processes, improve team
+              efficiency, and enhance product quality. This tool helps QA teams track
+              testing progress, manage defects, and ensure timely delivery of high-quality
+              software. By leveraging my expertise in <strong>React</strong> and{' '}
+              <strong>QA</strong>, I created a user-friendly and scalable solution that
+              addresses common challenges in the QA workflow.{' '}
+              {/* IMPROVEMENT: Added QA Tracker section */}
+            </Text>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
 
             {/* SKILLS & TECHNOLOGIES */}
             <Heading
@@ -316,6 +355,16 @@ export const Skills = () => {
               >
                 📌 <strong>Agile & Test Management:</strong> JIRA, Trello, Notion
               </Text>
+              <Text
+                as="li"
+                className={styles.metricItem}
+                data-status={status}
+                size="l"
+                style={{ margin: '10px 0' }}
+              >
+                ⚛️ <strong>Frontend Development:</strong> React, HTML, CSS{' '}
+                {/* IMPROVEMENT: Added React under skills */}
+              </Text>
             </ul>
 
             <br />
@@ -374,6 +423,22 @@ export const Skills = () => {
                   rel="noopener noreferrer"
                 >
                   qa-mebsly
+                </Link>
+              </Text>
+              <Text
+                as="li"
+                className={styles.metricItem}
+                data-status={status}
+                size="l"
+                style={{ margin: '10px 0' }}
+              >
+                🤝 <strong>GitHub (QA Frameworks & POCs):</strong>{' '}
+                <Link
+                  href="https://github.com/sriharsha-QA"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  sriharsha-QA
                 </Link>
               </Text>
               <Text
